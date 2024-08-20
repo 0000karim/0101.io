@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Hospital Geral de Benguela</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medilab
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+ 244 923 000 000</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">HGB</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#pagina_inicial" class="active">Home<br></a></li>
+            <li class="dropdown"><a href="#sobre"><span>Sobre</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="Info_HGB.html">Informações do HGB</a></li>
+                <li><a href="parcerias/index.html">Parcerias</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#perfil"><span>Perfil</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Informações Pessoais</a></li>
+                <li><a href="historicodoador/history.html">Histórico de Doações</a></li>
+                <li><a href="conta_utilizador/login.html">Conta do Utilizador</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#Educar"><span>Educação</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Benefícios da Doação</a></li>
+                <li><a href="#">Requisitos para Doação</a></li>
+                <li><a href="Faqs/index.html">FAQs</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#Notification">Notificações</a></li> -->
+            <li class="dropdown"><a href="#doctors"><span> Doação</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="agendar_doacão.html">Agendar Doação</a></li>
+              <li><a href="localizar/localizar.html">Localizar Pontos de Coleta</a></li>
+            </ul>
+            </li>
+           
+            <li class="dropdown"><a href="#contacto"><span> Contacto</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="Notificar_doador/index.html">Notificações</a></li>
+                <li><a href="ajuda_e_suporte.html">Ajuda e Suporte</a></li>
+                <li><a href="feedback/front-end.html">Feedback</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+          
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn d-none d-sm-block" href="Formulario-de-cadastro/index.html">Cadastro do doador</a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="pagina_inicial" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative">
+
+        <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
+          <h2>HOSPITAL GERAL DE BENGUELA </h2>
+          <p>Doe o seu sangue para salvar vidas</p>
+        </div><!-- End Welcome -->
+
+        <div class="content row gy-4">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
+              <h3>Porquê doar sangue?</h3>
+              <p>
+                Salva Vidas: O sangue é essencial para tratamentos médicos e emergências, como cirurgias, acidentes e doenças graves. Cada doação pode ajudar vários pacientes.
+                A doação de sangue é um gesto simples que tem um impacto enorme e positivo na vida de muitas pessoas.
+              </p>
+              <div class="text-center">
+                <a href="#about" class="more-btn"><span>Ler Mais</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="row gy-4">
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
+                    <i class="fa-sharp fa-solid fa-star-of-life"></i>
+                    <h4>Doar é Dar Vidas</h4>
+                    <p>Uma única doação de sangue pode salvar até três vidas. Seja um herói e agende sua doação hoje mesmo!</p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
+                    <i class="fa-solid fa-droplet"></i>
+                    <h4>Sangue</h4>
+                    <p>O sangue é um fluido vital que circula pelo sistema circulatório dos seres humanos e de outros animais.
+                       Ele desempenha funções essenciais para a manutenção da saúde e da vida</p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
+                    <i class="fa-solid fa-flask-vial"></i>
+                    <h4>laboratórios	</h4>
+                    <p>Os laboratórios de sangue desempenham um papel crucial na medicina moderna, oferecendo uma variedade 
+                      de testes e análises que ajudam no diagnóstico, tratamento e monitoramento de doenças. </p>
+                  </div>
+                </div><!-- End Icon Box -->
+
+              </div>
+            </div>
+          </div>
+        </div><!-- End  Content-->
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- secção de sobre -->
+    <section id="sobre" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4 gx-5">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_3.jpg" class="img-fluid" alt="">
+            <a href="https://videos.pexels.com/video-files/9573563/9573563-uhd_2732_1440_25fps.mp4" class="glightbox pulsating-play-btn"></a>
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>Sobre nós</h3>
+            <p>
+              O hospital oferece uma variedade de serviços médicos, incluindo atendimento de emergência, 
+              consultas especializadas, internação, cirurgia, e cuidados intensivos. Também pode fornecer 
+              serviços de diagnóstico, como exames de laboratório e de imagem.
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-info"></i>
+                <div>
+                  <h5>Informações</h5>
+                  <p>O Hospital Geral de Benguela,  passam estudantes dos mais variados institutos que a província tem, 
+                    a nível de graduação, a começar pela Faculdade de Medicina, Enfermagem, Laboratório, Fisioterapia
+                     e a nível de pós-graduação</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <div>
+                  <h5>Parcerias</h5>
+                  <p>Temos parceiros estratégicos do ponto de vista científico e assistencial. 
+                    Todas as instituições que se servem do hospital para ter a componente 
+                    prática dos seus estudantes são nossos parceiros e assinamos protocolos de cooperação</p>
+                </div>
+              </li>
+              <!-- <li>
+                <i class="fa-solid fa-heart-circle-xmark"></i>
+                <div>
+                  <h5>Voluptatem et qui exercitationem</h5>
+                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /secção de sobre -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fa-solid fa-user-doctor"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="184" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Médicos</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fa-regular fa-hospital"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Departamentos</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fas fa-flask"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Laboratório de Pesquisas</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bed"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="700" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Camas</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- seccção do Perfil -->
+    <section id="perfil" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Perfil</h2>
+        <p>O doador possui características e requisitos que garantem a segurança e a eficácia do processo de doação.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-images"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Idade</h3>
+              </a>
+              <p>O doadores devem ter entre 18 e 65 anos. Alguns locais permitem doadores a partir dos 16 anos com permissão dos pais</p>
+            </div>
+          </div><!-- End Perfil Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-weight-scale"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Peso</h3>
+              </a>
+              <p>O peso mínimo pode variar, mas geralmente é em torno de 50 kg</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-house-medical"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Saúde Geral</h3>
+              </a>
+              <p>Os doadores devem estar em boa saúde geral e não ter doenças
+                 infecciosas ou condições que possam comprometer a doação ou a saúde do receptor.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-syringe"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Intervalo de Doações</h3>
+              </a>
+              <p>Existem períodos mínimos entre doações para permitir a recuperação do corpo. 
+                Por exemplo, homens podem doar a cada 12 semanas e mulheres a cada 16 semanas</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-file-medical"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Histórico Médico</h3>
+              </a>
+              <p>Alguns antecedentes médicos podem desqualificar temporariamente ou permanentemente
+                 uma pessoa para doação, como certas doenças infecciosas ou condições crônicas.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-notes-medical"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Medicamentos e Tratamentos</h3>
+              </a>
+              <p>O uso de certos medicamentos ou tratamentos pode afetar a elegibilidade para a doação.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+   
+
+    <!-- Departments Section -->
+    <section id="Educar" class="departments section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Educação</h2>
+        <p>Os doadores de sangue desempenham um papel crucial na 
+          manutenção da saúde pública e na assistência a pacientes em diversas situações.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#departments-tab-1">Importância da Doação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Processo de Doação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Cuidados Pós-Doação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Benefícios da Doação</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-5">FAQs e Mitos</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="departments-tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Importância da Doação</h3>
+                    <p class="fst-italic">A doação de sangue é uma prática vital e tem uma importância significativa em diversos aspectos da saúde pública e do tratamento de pacientes. Aqui estão algumas das principais razões pelas quais a doação de sangue é tão importante:</p>
+                    <p>  Tratamento de Pacientes</p>
+                    <p>  Emergências Médicas: A doação de sangue é crucial em situações de emergência, como acidentes, cirurgias e trauma, onde grandes quantidades de sangue podem ser necessárias rapidamente.</p>
+                    <!-- <p>Tratamento de Doenças: Pacientes com condições como anemia, leucemia e outras doenças que afetam a produção de células sanguíneas frequentemente necessitam de transfusões regulares para manter a saúde</p> -->
+                  </div>
+                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                  </div> -->
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Processo de Doação</h3>
+                    <p class="fst-italic">O processo de doação de sangue é bem estruturado para garantir a segurança tanto do doador quanto do receptor. Aqui está um guia passo a passo sobre o que você pode esperar durante a doação de sangue:</p>
+                    <p>Preparação</p>
+                    <p>Jejum e Hidração: Embora não seja necessário um jejum completo, é recomendável estar bem hidratado e evitar alimentos gordurosos antes da doação.</p>
+                  </div>
+                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                  </div> -->
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cuidados Pós-Doação</h3>
+                    <p class="fst-italic">Após a doação de sangue, é importante seguir alguns cuidados para garantir uma recuperação rápida e segura. Aqui estão os principais cuidados pós-doação que você deve considerar:</p>
+                    <p>Descanso Imediato</p>
+                    <p>Tempo de Descanso: Após a doação, descanse por cerca de 5 a 10 minutos no local de doação. Isso ajuda a garantir que você se sinta bem e evita tontura ou desmaios</p>
+                    <p>Evite Levantar-se Rápido: Levante-se devagar para evitar tonturas ou desmaios. Se você se sentir tonto, informe a equipe de saúde</p>
+                  </div>
+                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                  </div> -->
+                </div>
+              </div>
+              <div class="tab-pane" id="departments-tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Benefícios da Doação</h3>
+                    <p class="fst-italic">A doação de sangue oferece uma série de benefícios significativos, tanto para o receptor quanto para o doador. Aqui estão alguns dos principais benefícios:</p>
+                   <p>Benefícios para o Receptor</p>
+                    <p>Salvamento de Vidas: A doação de sangue é essencial para salvar vidas em situações de emergência, como acidentes e cirurgias, e para tratar condições de saúde como anemia e câncer.</p>
+                  <p>Suporte em Terapias: A doação de sangue pode ser crucial para pacientes em tratamento intensivo ou em processos de recuperação após grandes cirurgias.</p>
+                  </div>
+                  <!-- <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                  </div> -->
+                </div>
+              </div>
+              <!-- <div class="tab-pane" id="departments-tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>FAQs e Mitos</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Departments Section -->
+
+    
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Imagens</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_minimalistic_design_on_a_serene_background_featuring_0.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_minimalistic_design_on_a_serene_background_featuring_0.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_warm_and_inviting_image_depicting_a_confident_Black_3.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_warm_and_inviting_image_depicting_a_confident_Black_3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_0.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_0.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_3.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_minimalistic_design_on_a_serene_background_featuring_1.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_minimalistic_design_on_a_serene_background_featuring_1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_warm_and_inviting_image_depicting_a_confident_Black_2.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_warm_and_inviting_image_depicting_a_confident_Black_2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_1.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_2.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/imag/Default_A_vibrant_and_emotive_scene_depicting_a_crowded_hospit_2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div><!-- End Gallery Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Hospital Geral de Benguela (Província de Benguela, Angola) está situada perto da praça Largo Paiva Couceiro e da universidade Instituto Superior Politécnico de Benguela (ISPB).</p>
+      </div><!-- End Section Title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://mapcarta.com/pt/W234883654/Mapa" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Localização</h3>
+                <p>Rua 31 de Janeiro, Benguela, Angola</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Ligue para nós </h3>
+                <p>+244 923 000 000</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Envie-nos um e-mail</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Seu Nome" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Seu E-mail" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">A carregar</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">A sua mensagem foi enviada. Obrigado!</div>
+
+                  <button type="submit">Envie-nos a sua mensagem</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="#" class="logo d-flex align-items-center">
+            <span class="sitename">H. Geral de Benguela</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Rua 31 de Janeiro, </p>
+            <p>Benguela, Angola</p>
+            <p class="mt-3"><strong>Telefone:</strong> <span>+244 923 000 000</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Links úteis</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Parcerias</a></li>
+            <li><a href="Formulario-de-cadastro/index.html">Cadastro do doador</a></li>
+            <li><a href="#">Termos de Parceria</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nossos Serviço</h4>
+          <ul>
+            <li><a href="#">Hospital Materno</a></li>
+            <li><a href="#">Hospital Pediátrico</a></li>
+            <li><a href="#">Centro de Hemodiálise</a></li>
+            <li><a href="#">Centro Oftalmológico</a></li>
+            <!-- <li><a href="#">Graphic Design</a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hospitalares</h4>
+          <ul>
+            <li><a href="#">Especialistas</a></li>
+            <li><a href="#">Médicos</a></li>
+            <li><a href="#">Enfermeiros</a></li>
+            <li><a href="#">Técnicos de diagnóstico</a></li>
+            <li><a href="#">Terapêutica</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Outras Árias</h4>
+          <ul>
+            <li><a href="#">Salas cirúrgicas</a></li>
+            <li><a href="#">Bloco Operatório</a></li>
+            <li><a href="#">Estomatologia</a></li>
+            <li><a href="#">Sala de raio X</a></li>
+            <!-- <li><a href="#">Flexo</a></li> -->
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">HGB</strong> <span>Todos os direitos reservados</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcerias do Hospital</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Parcerias do Hospital Geral de Benguela </h1>
+        <nav>
+            <a href="../index.html">Início</a> 
+            <!-- <a href="about.html">Sobre</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Encontre Parcerias</h2>
+            <input type="text" id="searchInput" placeholder="Buscar por tipo de parceria..." onkeyup="filterPartners()">
+        </section>
+
+        <section class="partners-list">
+            <h2>Nosso Parceiros</h2>
+            <div class="partner" data-type="hospital">
+                <h3>Faculdade de Medicina da Universidade Katyavala Bwila</h3>
+                <p>A Faculdade de Medicina da Universidade Katyavala Bwila, localizada em Angola,
+                     é uma instituição de ensino superior dedicada à formação de profissionais da área da saúde. 
+                     A Universidade Katyavala Bwila é uma das principais instituições de ensino superior 
+                     em Angola e oferece diversos cursos, incluindo o curso de Medicina.</p>
+            </div>
+            <div class="partner" data-type="clínica">
+                <h3>Instituto Piaget</h3>
+                <p>O Instituto Piaget de Angola é uma instituição de ensino superior privada com diversas faculdades 
+                    e cursos em áreas variadas. Ele faz parte da rede de Institutos Piaget, que é uma rede de 
+                    instituições de ensino superior com presença em Portugal e em algumas outras regiões de língua portuguesa.</p>
+            </div>
+            <div class="partner" data-type="laboratório">
+                <h3> Instituto Superior Politécnico de Benguela</h3>
+                <p>O Instituto Superior Politécnico de Benguela (ISPB) é uma instituição de ensino superior localizada em Benguela, 
+                    Angola. O ISPB é uma das principais universidades da região e oferece uma ampla gama de cursos em diversas áreas 
+                    do conhecimento.</p>
+            </div>
+            <div class="partner" data-type="farmácia">
+                <h3>Instituto Médio de Saúde de Benguela (IMSB)</h3>
+                <p>Formação de técnicos de saúde com foco em diferentes áreas, incluindo enfermagem e técnicas laboratoriais.</p>
+            </div>
+            <div class="partner" data-type="farmácia">
+                <h3>Instituto Médio de Saúde do Huambo (IMSH)</h3>
+                <p>Oferece formação técnica em saúde e especialidades relacionadas, preparando os alunos para atuar em diversas áreas da saúde.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HGB. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

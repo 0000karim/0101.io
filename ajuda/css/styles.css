@@ -1,0 +1,80 @@
+ 
+ * {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #1f293a;
+} 
+ 
+ /* CSS styles for the form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    
+  }
+
+  h1 {
+    text-align: center;
+    color: #ccc;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #cc1919e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    background-color: #f06210;
+  }
+
+  /* CSS styles for the chatbot assistant */
+  .chatbot {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ccc;
+  }
+
+  .chatbot p {
+    margin-bottom: 10px;
+  }
+
+  .chatbot button {
+    background-color: #cc1919e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .chatbot button:hover{
+    background-color: #f06210;
+  }

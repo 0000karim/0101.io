@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do Doador</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Informações Pessoais do Doador</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Preencha seus dados</h2>
+            <form id="donorForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
+                
+                <label for="bloodType">Tipo de Sangue:</label>
+                <select id="bloodType" name="bloodType" required>
+                    <option value="">Selecione</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+                
+                <label for="contact">Contato:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="info-section">
+            <h2>Informações do Doador</h2>
+            <div id="donorInfo">
+                <!-- As informações do doador serão exibidas aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Doação de Sangue. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

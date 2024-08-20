@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar a doação</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+  <h1>Agendar a doação</h1>
+  <form>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="date">Data de nascimento:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="address">Endereço:</label>
+    <textarea id="address" name="address" rows="4" required></textarea>
+
+    <label for="bloodType">Tipo de sangue:</label>
+    <select id="bloodType" name="bloodType" required>
+      <option value="">Selecione o tipo de sangue</option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+    </select>
+
+    <button type="submit">Envie-nos a sua agenda</button>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localizar Pontos de Coleta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Localizar Pontos de Coleta de Sangue</h1>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        function initMap() {
+            // Mapa inicial
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -15.7801, lng: -47.9292 }, // Coordenadas centrais
+                zoom: 10,
+            });
+
+            // Pontos de coleta (exemplo)
+            const pontos = [
+                { lat: -15.7902, lng: -47.9292, nome: "Centro de Coleta 1" },
+                { lat: -15.7800, lng: -47.9200, nome: "Centro de Coleta 2" },
+                // Adicione mais pontos conforme necessário
+            ];
+
+            pontos.forEach(ponto => {
+                new google.maps.Marker({
+                    position: { lat: ponto.lat, lng: ponto.lng },
+                    map: map,
+                    title: ponto.nome,
+                });
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

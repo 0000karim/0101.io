@@ -1,0 +1,72 @@
+ /* Responsive CSS */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1f293a;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #e6e6e6;
+        }
+        form {
+            padding: 20px;
+            /* background-color: #f2f2f2; */
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+           
+            
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e6e6e6;
+           
+        }
+        input[type="submit"] {
+            /* background-color: #4CAF50; */
+            background-color: #cc1919e5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="number"] {
+            /* background-color: #4CAF50; */
+            background-color: #e6e6e6;
+            /* color: #f06210; */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #f06210;
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            form {
+                padding: 10px;
+            }
+        }
